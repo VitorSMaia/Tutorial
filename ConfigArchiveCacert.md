@@ -8,44 +8,41 @@
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-* [Contributing](#contributing)
-* [Tutorial Listings](#tutorial-listings)
-* [Why host your tutorial on cdnjs?](#why-host-your-tutorial-on-cdnjs)
+* [cURL error 77](#cURL error 77)
 
-## Introduction
+## cURL error 77
 
-We want you to help us write awesome Community driven open source web development tutorials!. By developers, for developers.
+* Error setting certificate verify locations
 
-Here's a simple list of questions to help you figure out if you should publish a web development tutorial on cdnjs:
+<p>This error occurs for not finding the cacert file, to make api requests.
+Let me help you solve this in a simple way.</p>
 
-* Do you love web development?
-* Do you want to help other people learn web development?
-* Did you just learn about something awesome that you think other people would find awesome too?
+## [[Download]](https://curl.se/docs/caextract.html)
 
-If you answered yes to any of the above, we want you to write a web development tutorial and publish it on cdnjs! It's super easy!
+* After the download, go to the folder that contains the files of your version of php and put the downloaded file inside the folder:
 
-## Contributing
+`*\extras\ssl`
 
-Simply fork the repository and copy the [example tutorial](https://github.com/cdnjs/tutorials/tree/master/backbone.js/organizing-backbone-using-modules)
+* Then access the php.ini file, and change the two options below, with the path of the file you downloaded: 
 
-Each tutorial should have a master `index.md` file which will contain the contents of your tutorial. And it should also contain a `tutorial.json` file which contains all the meta information about your tutorial.
+`curl.cainfo = {Coloque o Caminho do arquivo aqui}`
 
-We want to make a super beautiful and useful tutorial system where anyone can get setup in minutes.
+`openssl.cafile = {Coloque o Caminho do arquivo aqui}`
 
-## Tutorial Listings
+<p>Reinicie a sua máquina e faça o teste.</p>
 
-Tutorials show under each associated library on the [cdnjs.com](https://cdnjs.com) website, and are also all available via the [API](https://cdnjs.com/api). At the moment we don't have support for generic JavaScript tutorials but please leave an issue if you want to write one.
+<p>If it doesn't work, contact me and maybe I can help.</p>
 
-![related tutorials](http://i.imgur.com/mDOePCw.png)
-
-## Why host your tutorial on cdnjs?
-
-* [cdnjs.com](https://cdnjs.com) is visited by hundreds of thousands of web developers every month.
-* You don't have to worry about setting up an elegant website to display your tutorials.
-* Authors get full credit and can remove their work at any time.
-* Everything is hosted on GitHub so the community can easily help fix bugs and grammatical mistakes in your tutorials.
-
-## License
-
-Each library is released under its own license. This cdnjs repository and the tutorials within are published under [MIT license](LICENSE).
+***
+***
+***
+<p>
+João Vitor </br>
+Developer PHP </br></br>
+    <a href = "https://wa.me/5511913564982">
+     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank">
+    </a>
+    <a href = "mailto:vito.smaia1@gmail.com">
+     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+    </a>
+</p>
