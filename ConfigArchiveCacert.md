@@ -36,13 +36,24 @@ Let me help you solve this in a simple way.</p>
 ***
 ***
 ***
-<p>
-João Vitor </br>
-Developer PHP </br></br>
-    <a href = "https://wa.me/5511913564982">
-     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank">
-    </a>
-    <a href = "mailto:vito.smaia1@gmail.com">
-     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
-    </a>
-</p>
+ <table>
+    <thead>
+        <th>
+            <h2>João Vitor</h2>
+            <h3>Developer</h3>
+        </th>
+        <th>
+            <div style="flex: auto; width: 250px;">
+                <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="">
+                <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="">
+                <a href="https://wa.me/5511913564982">
+                 <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank">
+                </a>
+                <a href="mailto:vito.smaia1@gmail.com">
+                 <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+                </a>
+            </div>        
+        </th>
+    </thead>
+    
+ </table>
