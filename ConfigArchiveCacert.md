@@ -29,7 +29,7 @@ Let me help you solve this in a simple way.</p>
 
 `openssl.cafile = {Coloque o Caminho do arquivo aqui}`
 
-<p>Reinicie a sua máquina e faça o teste.</p>
+<p>Restart your machine and test.</p>
 
 <p>If it doesn't work, contact me and maybe I can help.</p>
 
