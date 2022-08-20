@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-* [cURL error 77](#cURL error 77)
+[cURL error 77](#cURL error 77)
 
 ## cURL error 77
 
@@ -55,5 +55,5 @@ Let me help you solve this in a simple way.</p>
             </div>        
         </th>
     </thead>
-    
+
  </table>
