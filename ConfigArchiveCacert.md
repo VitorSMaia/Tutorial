@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-* [cURL error 77](#cURL error 77)
+[cURL error 77](#cURL error 77)
 
 ## cURL error 77
 
